@@ -1,0 +1,21 @@
+/* meusprojetos.css */
+
+#cards-projetos {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#cards-projetos h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#cards-projetos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+

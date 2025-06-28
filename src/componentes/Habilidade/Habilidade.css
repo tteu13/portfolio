@@ -1,0 +1,28 @@
+.habilidade-container {
+    background-color: #888; /* tom médio de cinza */
+    color: #fff;
+    margin: 12px;
+    width: 130px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.habilidade-container:hover {
+    background-color: #555; /* tom mais escuro ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .habilidade-container {
+        width: 100%;
+        max-width: 300px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
